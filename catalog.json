@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "Claude Agent Marketplace  indexed skill catalog",
+  "skills": [
+    {
+      "name": "volatility-design",
+      "display_name": "Volatility-Based System Design",
+      "description": "Apply the Righting Software (Juval Löwy) volatility-based design method to decompose a system into well-bounded services. Use for designing new systems, decomposing monoliths, identifying service boundaries, and microservices architecture.",
+      "category": "architecture",
+      "tags": ["architecture", "system-design", "microservices", "service-decomposition", "volatility", "righting-software"],
+      "visibility": "public",
+      "skill_file": "skills/public/volatility-design/SKILL.md",
+      "references": [
+        "skills/public/volatility-design/references/service-archetypes.md",
+        "skills/public/volatility-design/references/volatility-identification.md"
+      ],
+      "author": "jbenchitrit",
+      "version": "1.0.0"
+    }
+  ]
+}
